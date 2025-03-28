@@ -14,13 +14,13 @@ export default function Navbar() {
 
      
       <ul className="hidden lg:flex space-x-8 text-white ">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Properties</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Pages</a></li>
+        <li className="hover:text-orange-600 duration-500"><a href="#">Home</a></li>
+        <li className="hover:text-orange-600 duration-500"><a href="#">Properties</a></li>
+        <li className="hover:text-orange-600 duration-500"><a href="#">Contact Us</a></li>
+        <li className="hover:text-orange-600 duration-500"><a href="#">Pages</a></li>
       </ul>
 
-      <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition hidden lg:block">
+      <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition hidden lg:block duration-500">
         Get for Free
       </button>
 
